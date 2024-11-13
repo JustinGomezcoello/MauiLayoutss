@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiLayoutss.Pagina1"
+             Title="Pagina1">
+    
+    
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Texto Grande" FontSize="Large"/>
+        <Label Text="Texto Mediano" FontSize="Medium"/>
+        <Label Text="Texto Pequeño" FontSize="Small"/>
+        <Button Text="Ir a FlexLayout" Clicked="OnNavigateToFlexLayout"/>
+    </StackLayout>
+    
+    
+</ContentPage>

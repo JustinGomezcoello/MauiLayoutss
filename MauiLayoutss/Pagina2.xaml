@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiLayoutss.Pagina2"
+             Title="Pagina2">
+    
+    
+    
+    <FlexLayout Direction="Column" AlignItems="Start">
+        <!-- Ejemplo de un elemento de lista -->
+        <StackLayout Orientation="Horizontal" Margin="10">
+            <Image Source="imagen1.png" WidthRequest="50" HeightRequest="50" VerticalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImageTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="Texto del Elemento 1" VerticalOptions="Center" Margin="10,0"/>
+        </StackLayout>
+        <!-- Repetir para otros elementos de la lista -->
+    </FlexLayout>
+    
+    
+    
+</ContentPage>
