@@ -23,6 +23,7 @@
             Text="Haga Clic" 
             FontSize="Default" 
             Style="{StaticResource Headline}"
+            TextColor="White"
             VerticalTextAlignment="Center"
             Margin="0,5,0,0">
                 <Label.GestureRecognizers>
@@ -48,6 +49,7 @@
             Text="Haga Clic 2" 
             FontSize="Default" 
             Style="{StaticResource Headline}"
+            TextColor="White"
             VerticalTextAlignment="Center"
             Margin="0,5,0,0">
                 <Label.GestureRecognizers>

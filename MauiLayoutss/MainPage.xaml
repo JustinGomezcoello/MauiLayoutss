@@ -10,7 +10,7 @@
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <Grid.ColumnDefinitions> <!--Defino Columnas-->
+        <Grid.ColumnDefinitions> <!--Defino Columnas -->
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
