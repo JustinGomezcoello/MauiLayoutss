@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiLayoutss.Pagina1"
              Title="StackLayout"
-             BackgroundColor="Black">
+             >
 
 
     <StackLayout>
@@ -24,14 +24,14 @@
             <Label Text="HOLA MUNDO" FontSize="Small" HorizontalOptions="Center" Margin="60,0"/>
             <Label Text="HOLA MUNDO" FontSize="Micro" HorizontalOptions="Center" Margin="80,0"/>
             <Label Text="HOLA MUNDO" FontSize="Default" HorizontalOptions="Center" Margin="100,0"/>
-            <Label Text="" FontSize="Header" HorizontalTextAlignment="Center"/>
+            <Label Text=""  HorizontalTextAlignment="Center"/>
         </StackLayout>
 
         <Button Text="Ir a FlexLayout>>" TextColor="White"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
                 Clicked="OnButtonClicked"
-                BackgroundColor="Orange"/>
+                BackgroundColor="LightPink"/>
 
 
     </StackLayout>

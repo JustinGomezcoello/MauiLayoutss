@@ -20,7 +20,7 @@
             </Image>
 
             <Label 
-            Text="Haga Clic" 
+            Text="Justin Gomezcoello" 
             FontSize="Default" 
             Style="{StaticResource Headline}"
             TextColor="White"
@@ -46,7 +46,7 @@
             </Image>
 
             <Label 
-            Text="Haga Clic 2" 
+            Text="Jhoel Suarez" 
             FontSize="Default" 
             Style="{StaticResource Headline}"
             TextColor="White"
