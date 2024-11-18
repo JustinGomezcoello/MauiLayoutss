@@ -6,8 +6,8 @@ public partial class Pagina2 : ContentPage
 	{
 		InitializeComponent();
 	}
-    private async void OnImageTapped(object sender, EventArgs e)
+    private void OnElementTapped(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Pagina3());
+        Navigation.PushAsync(new Pagina3());
     }
 }

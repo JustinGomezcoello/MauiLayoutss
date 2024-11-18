@@ -6,8 +6,8 @@ public partial class Pagina3 : ContentPage
 	{
 		InitializeComponent();
 	}
-    private async void OnNavigateToGridLayout(object sender, EventArgs e)
+    private void OnButtonClicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new MainPage());
+        Navigation.PushAsync(new MainPage());
     }
 }

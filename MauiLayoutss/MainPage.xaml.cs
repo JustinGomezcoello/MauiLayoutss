@@ -9,9 +9,9 @@
             InitializeComponent();
         }
 
-        private async void OnNavigateToStackLayout(object sender, EventArgs e)
+        private void OnButtonClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Pagina1());
+            Navigation.PushAsync(new Pagina1());
         }
     }
 

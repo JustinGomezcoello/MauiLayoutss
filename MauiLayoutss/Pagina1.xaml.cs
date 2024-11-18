@@ -6,8 +6,8 @@ public partial class Pagina1 : ContentPage
 	{
 		InitializeComponent();
 	}
-    private async void OnNavigateToFlexLayout(object sender, EventArgs e)
+    private void OnButtonClicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Pagina2());
+        Navigation.PushAsync(new Pagina2());
     }
 }

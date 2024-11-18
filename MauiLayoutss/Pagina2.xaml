@@ -2,23 +2,58 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiLayoutss.Pagina2"
-             Title="Pagina2">
-    
-    
-    
-    <FlexLayout Direction="Column" AlignItems="Start">
-        <!-- Ejemplo de un elemento de lista -->
+             Title="FlexLayout"
+             BackgroundColor="Black">
+
+    <FlexLayout Direction="Column" AlignItems="Start" >
         <StackLayout Orientation="Horizontal" Margin="10">
-            <Image Source="imagen1.png" WidthRequest="50" HeightRequest="50" VerticalOptions="Center">
+            <Image
+            Source="dotnet_bot.png"
+            HeightRequest="100"
+            WidthRequest="100"
+            Aspect="AspectFit"
+            Margin="0"
+            SemanticProperties.Description="Dotnet bot in a race car number eight">
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnImageTapped"/>
+                    <TapGestureRecognizer Tapped="OnElementTapped" />
                 </Image.GestureRecognizers>
             </Image>
-            <Label Text="Texto del Elemento 1" VerticalOptions="Center" Margin="10,0"/>
+
+            <Label 
+            Text="Haga Clic" 
+            FontSize="Default" 
+            Style="{StaticResource Headline}"
+            VerticalTextAlignment="Center"
+            Margin="0,5,0,0">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" />
+                </Label.GestureRecognizers>
+            </Label>
         </StackLayout>
-        <!-- Repetir para otros elementos de la lista -->
+
+        <StackLayout Orientation="Horizontal" Margin="10">
+            <Image
+            Source="img.jpg"
+            HeightRequest="100"
+            WidthRequest="100"
+            Aspect="AspectFit"
+            Margin="0"
+            SemanticProperties.Description="Dotnet bot in a race car number eight">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Label 
+            Text="Haga Clic 2" 
+            FontSize="Default" 
+            Style="{StaticResource Headline}"
+            VerticalTextAlignment="Center"
+            Margin="0,5,0,0">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" />
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
     </FlexLayout>
-    
-    
-    
 </ContentPage>
