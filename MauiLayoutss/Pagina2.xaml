@@ -6,7 +6,9 @@
              BackgroundColor="Black">
 
     <FlexLayout Direction="Column" AlignItems="Start" >
-        <StackLayout Orientation="Horizontal" Margin="10">
+
+        <Frame CornerRadius="15" BackgroundColor="#2C2C2C" Padding="15" HasShadow="True">
+            <StackLayout Orientation="Horizontal" Margin="10">
             <Image
             Source="dotnet_bot.png"
             HeightRequest="100"
@@ -30,9 +32,11 @@
                     <TapGestureRecognizer Tapped="OnElementTapped" />
                 </Label.GestureRecognizers>
             </Label>
-        </StackLayout>
+            </StackLayout>
+        </Frame>
 
-        <StackLayout Orientation="Horizontal" Margin="10">
+        <Frame CornerRadius="15" BackgroundColor="#2C2C2C" Padding="15" HasShadow="True">
+            <StackLayout Orientation="Horizontal" Margin="10">
             <Image
             Source="img.jpg"
             HeightRequest="100"
@@ -56,6 +60,35 @@
                     <TapGestureRecognizer Tapped="OnElementTapped" />
                 </Label.GestureRecognizers>
             </Label>
-        </StackLayout>
+            </StackLayout>
+        </Frame>
+        
+        <Frame CornerRadius="15" BackgroundColor="#2C2C2C" Padding="15" HasShadow="True">
+            <StackLayout Orientation="Horizontal" Margin="10">
+            <Image
+            Source="gato.png"
+            HeightRequest="100"
+            WidthRequest="100"
+            Aspect="AspectFit"
+            Margin="0"
+            SemanticProperties.Description="Gato">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Label 
+            Text="Stefan Jativa" 
+            FontSize="Default" 
+            Style="{StaticResource Headline}"
+            TextColor="White"
+            VerticalTextAlignment="Center"
+            Margin="0,5,0,0">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" />
+                </Label.GestureRecognizers>
+            </Label>
+            </StackLayout>
+        </Frame>
     </FlexLayout>
 </ContentPage>

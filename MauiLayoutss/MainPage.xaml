@@ -5,6 +5,7 @@
              Title="Grid">
 
     <Grid>
+       
         <Grid.RowDefinitions> <!--Defino Filas-->
             <RowDefinition />
             <RowDefinition />
@@ -15,27 +16,37 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <BoxView Color="Red" />
+        <BoxView Color="#FF6666" CornerRadius="10"  BackgroundColor="#FF6666" Margin="5"/>
         <Label Text="Jhoel Suarez" TextColor="Black"
                    HorizontalOptions="Center"
                    VerticalOptions="Center" />
-        <BoxView Grid.Column="1" Color="Blue" />
+
+
+        <BoxView Grid.Column="1" Color="#6699FF" CornerRadius="10" BackgroundColor="#6699FF" Margin="5"/>
         <Label Grid.Column="1" Text="Justin Gomezcoello" TextColor="Black"
                    HorizontalOptions="Center"
                    VerticalOptions="Center" />
-        <BoxView Grid.Row="1" Color="Cyan" />
+        
+
+
+        <BoxView Grid.Row="1" Color="#66CCCC" CornerRadius="10"  BackgroundColor="#66CCCC" Margin="5"/>
         <Label Grid.Row="1" Text="Stefan Jativa" TextColor="Black"
                    HorizontalOptions="Center"
                    VerticalOptions="Center" />
-        <BoxView Grid.Row="1" Grid.Column="1" Color="GreenYellow" />
+     
+
+
+
+        <BoxView Grid.Row="1" Grid.Column="1" Color="#99CC66" CornerRadius="10" BackgroundColor="#99CC66" Margin="5"/>
         <Label Grid.Row="1" Grid.Column="1" Text="Row1, Column 1"
                    HorizontalOptions="Center"
                    VerticalOptions="Center" />
+        
         <Button Grid.Row="1" Grid.Column="1"
                 Text="Ir a StackLayout >>" TextColor="White"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
                 Clicked="OnButtonClicked"
-                BackgroundColor="Black"/>
+                BackgroundColor="#333333"/>
     </Grid>
 </ContentPage>
