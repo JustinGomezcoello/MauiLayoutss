@@ -16,7 +16,7 @@
                        AbsoluteLayout.LayoutFlags="XProportional, WidthProportional" />
 
                 <Image
-                    Source="img2.png"
+                    Source="blanca.png"
                     HeightRequest="300"
                     WidthRequest="300"
                     Aspect="AspectFit"

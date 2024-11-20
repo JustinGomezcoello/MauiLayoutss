@@ -57,6 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\blanca.png" />
 	  <None Remove="Resources\Images\gato.png" />
 	  <None Remove="Resources\Images\imagen1.PNG" />
 	  <None Remove="Resources\Images\img.jpg" />

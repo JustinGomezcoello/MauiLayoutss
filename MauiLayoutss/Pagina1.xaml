@@ -16,7 +16,7 @@
 
         </VerticalStackLayout>
 
-        <Frame CornerRadius="15" BackgroundColor="#2C2C2C" Padding="15" HasShadow="True">
+        <Frame CornerRadius="15" BackgroundColor="#D3D3D3" Padding="15" HasShadow="True">
             <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
                 
                 <Label Text="HOLA MUNDO" FontSize="Header" HorizontalTextAlignment="Center"/>

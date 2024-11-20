@@ -5,10 +5,10 @@
              Title="FlexLayout"
              BackgroundColor="Black">
 
-    <FlexLayout Direction="Column" AlignItems="Start" >
+    <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="Center">
 
-        <Frame CornerRadius="15" BackgroundColor="#2C2C2C" Padding="15" HasShadow="True">
-            <StackLayout Orientation="Horizontal" Margin="10">
+
+        <StackLayout Orientation="Horizontal" Margin="10">
             <Image
             Source="dotnet_bot.png"
             HeightRequest="100"
@@ -33,9 +33,9 @@
                 </Label.GestureRecognizers>
             </Label>
             </StackLayout>
-        </Frame>
+        
 
-        <Frame CornerRadius="15" BackgroundColor="#2C2C2C" Padding="15" HasShadow="True">
+        
             <StackLayout Orientation="Horizontal" Margin="10">
             <Image
             Source="img.jpg"
@@ -61,9 +61,9 @@
                 </Label.GestureRecognizers>
             </Label>
             </StackLayout>
-        </Frame>
         
-        <Frame CornerRadius="15" BackgroundColor="#2C2C2C" Padding="15" HasShadow="True">
+        
+        
             <StackLayout Orientation="Horizontal" Margin="10">
             <Image
             Source="gato.png"
@@ -89,6 +89,6 @@
                 </Label.GestureRecognizers>
             </Label>
             </StackLayout>
-        </Frame>
+        
     </FlexLayout>
 </ContentPage>
